@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title> My Website</title>
+</head>
+<body>
+    <header>
+        <h1>Matt's Website</h1>
+        <p><strong>Web Developer | Creative Thinker</strong></p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Background">Background</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="Background">
+        <h3>Background</h3>
+        <p><strong>As a computer engineering student, avid gamer, and passionate cyclist, my background reflects a dynamic blend of technical proficiency, strategic thinking, and an adventurous spirit. In the academic realm, pursuing a degree in computer engineering has equipped me with a solid foundation in programming languages, software development, and hardware design. This academic journey has honed my problem-solving skills, fostering an analytical mindset and the ability to navigate complex systems. Simultaneously, my passion for gaming has cultivated strategic thinking, decision-making prowess, and an adeptness at adapting to new technologies. Engaging in virtual communities has strengthened my teamwork and leadership capabilities. Beyond the digital realm, my love for cycling speaks to an adventurous spirit and a commitment to a healthy, active lifestyle. Riding a bike not only provides an excellent outlet for stress relief but also imparts a mechanical understanding that aligns with problem-solving skills crucial in both engineering and gaming. This diverse combination of experiences not only underscores my technical acumen as a computer engineer but also highlights my adaptability, creativity, and the ability to thrive in multifaceted environments.</strong></p>
+
+    <section id="about">
+    <h2>About Me</h2>
+    <p><strong>Welcome to my personal website! I'm Matthew. Here, you'll get to know more about me and my journey.</strong></p>
+
+    <div class="about-details">
+      
+        <h3>Skills</h3>
+        <p><strong>My technical skills include proficiency in HTML, CSS, JavaScript, and various front-end and back-end frameworks. I also have experience with database management using SQL and NoSQL technologies.</strong></p>
+    </div>
+</section>
+<section id="resume">
+    <h2>Resume</h2>
+
+    <!-- Add an image here -->
+    <img src="Resume.jpg" alt="RESUME">
+
+    <div class="resume-item">
+        <h3>Education</h3>
+        <p><strong>School Name:</strong> Politechnical University Of The Philippines <strong>(College)</strong></p>
+        <p><strong>Present: 2022-Present</strong></p>
+        <p><strong>School Name:</strong> Eulogio "Amang" Rodriguez Vocational HighSchool<strong>(Senior HighSchool)</strong></p>
+        <p><strong>Graduated: 2020-2022</strong></p>
+        <p><strong>School Name:</strong> Central Colleges Of the Philippines <strong>(HighSchool)</strong></p>
+        <p><strong>Graduated: 2016-2020</strong></p>
+        <p><strong>School Name:</strong> Salapan Elementary School <strong>(Elementary)</strong></p>
+        <p><strong>Graduated: 2011-2016</strong></p>
+        <p><strong>School Name:</strong> Immaculate Heart Mary College <strong>(Nursery)</strong></p>
+        <p><strong>Graduated: 2007-2011</strong></p>
+    </div>
+
+    <div class="resume-item">
+        <h3>Work Experience</h3>
+        <p><strong>MCDONALD'S</strong><strong> - Service Crew</strong></p>
+        <p><strong>Employment Period: Sept 2022 - Nov 2022</strong></p>
+        <!-- Add an image here -->
+    <img src="mcdo.jpg" alt="mcdo">
+    </div>
+
+    <div class="resume-item">
+        <h3><strong>Skills</strong></h3>
+        <ul>
+            <li><strong>Programming Languages: JavaScript, HTML, CSS, etc.</strong></li>
+            <li><strong>Database Management: MongoDB, MySQL, etc.</strong></li>
+        </ul>
+    </div>
+
+    <!-- Add more sections as needed -->
+
+</section>
+
+    <section id="contact">
+    <h2><strong>Contact</strong></h2>
+    <p><strong>Feel free to reach out to me. You can use the form below or connect through my social media.</strong></p>
+
+    <div class="contact-form">
+        <form action="process-contact-form.php" method="post">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+    <div class="social-media">
+        <p><strong>Connect with me on social media:</strong></p>
+        <ul>
+            <li><a href="https://gmail.com/yourusername" target="_blank">gmail</a></li>
+            <li><a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a></li>
+            <!-- Add more social media links as needed -->
+        </ul>
+        <div class="form">
+            <h2><strong>Login Here</strong></h2>
+            <input type="email" name="email" placeholder="Enter Email Here">
+            <input type="password" name="" placeholder="Enter Password Here">
+            <button class="btnn"><a href="#">Login</a></button>
+
+            <p class="link"><strong>Don't have an account</strong><br>
+            <a href="#"><strong>Sign up </a> here</a></strong></p>
+            <p class="liw"><strong>Log in with</strong></p>
+        </div>    
+    </div>
+</section>
+
+
+    <footer>
+        <p><strong>&copy; 2024 Matthew Abdiel Tabalba. All rights reserved.</strong></p>
+    </footer>
+</body>
+</html>
